@@ -1,0 +1,66 @@
+[
+    {
+        "vertices": [
+            {
+                "_key": "GB39LZXH76741385138296",
+                "_id": "Account/GB39LZXH76741385138296",
+                "_rev": "_hf5KIg---J",
+                "acc_type": "P",
+                "open_date": "2023-05-26",
+                "branch": "KCU Konawe Selatan",
+                "product": "Tabungan Emas",
+                "rcpt_swift": "",
+                "rcpt_bank": ""
+            },
+            {
+                "_key": "337251",
+                "_id": "Transaction/337251",
+                "_rev": "_hf5KoQC--8",
+                "transaction_ts": "2024-02-14 09:04:28.527207",
+                "amount": 24547000,
+                "transaction_type": "Transfer",
+                "channel": "QR"
+            },
+            {
+                "_key": "337251",
+                "_id": "Transaction/337251",
+                "_rev": "_hf5KoQC--8",
+                "transaction_ts": "2024-02-14 09:04:28.527207",
+                "amount": 24547000,
+                "transaction_type": "Transfer",
+                "channel": "QR"
+            },
+            {
+                "_key": "GB68WNMA61105000031308",
+                "_id": "Account/GB68WNMA61105000031308",
+                "_rev": "_hf5KHxW--O",
+                "acc_type": "P",
+                "open_date": "2010-06-16",
+                "branch": "KCP Karimun",
+                "product": "Tabungan Haji",
+                "rcpt_swift": "",
+                "rcpt_bank": ""
+            }
+        ],
+        "edges": [
+            {
+                "_key": "1370206",
+                "_id": "send/1370206",
+                "_from": "Account/GB39LZXH76741385138296",
+                "_to": "Transaction/337251",
+                "_rev": "_hf5LKmS--Z"
+            },
+            {
+                "_key": "2370228",
+                "_id": "receive/2370228",
+                "_from": "Account/GB68WNMA61105000031308",
+                "_to": "Transaction/337251",
+                "_rev": "_hf5L4o----"
+            }
+        ],
+        "weights": [
+            0,
+            1
+        ]
+    }
+]
